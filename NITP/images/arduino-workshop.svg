@@ -1,0 +1,15 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3c72;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a5298;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" fill="url(#bg)"/>
+  <rect x="50" y="60" width="200" height="80" rx="10" fill="#00ff88" opacity="0.8"/>
+  <circle cx="100" cy="100" r="15" fill="#ff6b35"/>
+  <circle cx="150" cy="100" r="15" fill="#ff6b35"/>
+  <circle cx="200" cy="100" r="15" fill="#ff6b35"/>
+  <text x="150" y="40" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">Arduino Workshop</text>
+  <text x="150" y="180" text-anchor="middle" fill="white" font-family="Arial" font-size="12">Hands-on Learning</text>
+</svg>
