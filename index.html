@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Club - NIT Patna</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen with Animated Logo -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="club-logo">
+            <img src="images/robotics-logo.svg" alt="Robotics Club Logo" style="width: 200px; height: 80px;">
+            <div class="logo-text">
+                <h1>ROBOTICS CLUB</h1>
+                <p>NIT PATNA</p>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <div class="logo">
+                    <img src="images/robotics-logo.svg" alt="Robotics Club Logo" style="width: 60px; height: 24px; margin-right: 10px;">
+                    <h2>Robotics Club</h2>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#news">News</a></li>
+                </ul>
+            </div>
+            <button class="login-btn" id="loginBtn">Login</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="tech-background">
+                <div class="circuit-pattern"></div>
+                <div class="neural-network">
+                    <div class="node"></div>
+                    <div class="node"></div>
+                    <div class="node"></div>
+                    <div class="node"></div>
+                    <div class="connection"></div>
+                    <div class="connection"></div>
+                    <div class="connection"></div>
+                </div>
+                <div class="data-stream">
+                    <div class="data-bit">01</div>
+                    <div class="data-bit">10</div>
+                    <div class="data-bit">11</div>
+                    <div class="data-bit">00</div>
+                </div>
+            </div>
+            <div class="robot-animation">
+                <div class="robot">
+                    <div class="robot-head">
+                        <div class="antenna"></div>
+                        <div class="scanner"></div>
+                    </div>
+                    <div class="robot-body">
+                        <div class="chest-panel">
+                            <div class="led"></div>
+                            <div class="led"></div>
+                            <div class="led"></div>
+                        </div>
+                    </div>
+                    <div class="robot-arm left"></div>
+                    <div class="robot-arm right"></div>
+                    <div class="robot-legs">
+                        <div class="leg left"></div>
+                        <div class="leg right"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-content">
+                <h1>Robotics Club</h1>
+                <h2>National Institute of Technology, Patna</h2>
+                <p>Innovating Tomorrow Through Robotics and Automation</p>
+                <button class="cta-btn">Join Us</button>
+            </div>
+        </section>
+
+        <section id="team" class="team">
+            <div class="container">
+                <h2>Our Team</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-photo"></div>
+                        <h3>President</h3>
+                        <p>Leading the club's vision and strategic initiatives</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-photo"></div>
+                        <h3>Vice President</h3>
+                        <p>Supporting operations and project coordination</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-photo"></div>
+                        <h3>Technical Head</h3>
+                        <p>Overseeing technical projects and workshops</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-photo"></div>
+                        <h3>Event Coordinator</h3>
+                        <p>Managing competitions and club events</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Our Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Line Following Robot</h3>
+                        <p>Autonomous robot that follows predefined paths using sensors and microcontrollers</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Quadcopter Design</h3>
+                        <p>Custom-built drones with flight control systems and autonomous navigation</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Robotic Arm</h3>
+                        <p>Multi-DOF robotic manipulator for pick and place operations</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Obstacle Avoidance Bot</h3>
+                        <p>Smart robot using ultrasonic sensors for real-time obstacle detection</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Voice Controlled Robot</h3>
+                        <p>Robot controlled through voice commands using speech recognition</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>IoT Home Automation</h3>
+                        <p>Smart home systems with remote monitoring and control capabilities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Photo Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-image="images/arduino-workshop.svg" data-description="Interactive workshop where students learn Arduino programming, circuit design, and sensor integration. Participants build their first microcontroller projects and understand embedded systems fundamentals.">
+                        <img src="images/arduino-workshop.svg" alt="Arduino Workshop">
+                        <div class="gallery-overlay">
+                            <span>Arduino Workshop</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-image="images/ai-network.svg" data-description="Exploring artificial intelligence and machine learning applications in robotics. Students learn neural network architectures, computer vision, and autonomous decision-making algorithms for intelligent robots.">
+                        <img src="images/ai-network.svg" alt="AI Neural Network">
+                        <div class="gallery-overlay">
+                            <span>AI Neural Network</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-image="images/quadcopter.svg" data-description="Advanced drone development project featuring autonomous flight control, GPS navigation, and real-time data transmission. Students design and build custom quadcopters with various payload capabilities.">
+                        <img src="images/quadcopter.svg" alt="Quadcopter Project">
+                        <div class="gallery-overlay">
+                            <span>Quadcopter Project</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-image="images/club-meeting.svg" data-description="Regular club meetings where members collaborate on projects, share knowledge, and plan upcoming events. These sessions foster teamwork and innovation among robotics enthusiasts.">
+                        <img src="images/club-meeting.svg" alt="Club Meeting">
+                        <div class="gallery-overlay">
+                            <span>Club Meeting</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-image="images/pcb-design.svg" data-description="Professional PCB design sessions using industry-standard software. Students learn circuit layout, component placement, and manufacturing processes for custom electronic boards.">
+                        <img src="images/pcb-design.svg" alt="PCB Design Session">
+                        <div class="gallery-overlay">
+                            <span>PCB Design Session</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-image="images/innovation-lab.svg" data-description="State-of-the-art innovation laboratory equipped with 3D printers, soldering stations, and advanced testing equipment. This is where creative ideas transform into working prototypes.">
+                        <img src="images/innovation-lab.svg" alt="Innovation Lab">
+                        <div class="gallery-overlay">
+                            <span>Innovation Lab</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="events">
+            <div class="container">
+                <h2>Upcoming Events</h2>
+                <div class="event-list">
+                    <div class="event-item">
+                        <div class="event-date">Jan 15</div>
+                        <div class="event-info">
+                            <h3>Arduino Workshop</h3>
+                            <p>Hands-on workshop on Arduino programming and circuit design</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">Feb 20</div>
+                        <div class="event-info">
+                            <h3>Robowar Competition</h3>
+                            <p>Annual robot fighting competition during technical fest</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">Mar 10</div>
+                        <div class="event-info">
+                            <h3>AI & ML Seminar</h3>
+                            <p>Expert talk on artificial intelligence in robotics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="news">
+            <div class="container">
+                <h2>Latest News</h2>
+                <div class="news-grid">
+                    <div class="news-item">
+                        <div class="news-date">Dec 20, 2024</div>
+                        <h3>Club Wins National Robotics Championship</h3>
+                        <p>Our team secured first place in the National Robotics Competition with their innovative autonomous navigation system.</p>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">Dec 15, 2024</div>
+                        <h3>New Arduino Workshop Series Announced</h3>
+                        <p>Starting January 2025, we're launching a comprehensive Arduino workshop series for beginners and advanced users.</p>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-date">Dec 10, 2024</div>
+                        <h3>Partnership with Tech Industry Leaders</h3>
+                        <p>Robotics Club NIT Patna announces collaboration with leading tech companies for internship and placement opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: roboticsclub@nitp.ac.in</p>
+                <p>Phone: +91-612-237-1715</p>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>Robotics Club, NIT Patna</p>
+                <p>Ashok Rajpath, Patna</p>
+                <p>Bihar 800005, India</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <span>Instagram</span>
+                    <span>Facebook</span>
+                    <span>LinkedIn</span>
+                    <span>Gmail</span>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 Robotics Club, NIT Patna. All rights reserved.</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login to Robotics Club</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <div class="divider">
+                <span>OR</span>
+            </div>
+            <div class="social-login">
+                <button class="google-btn" id="googleLogin">
+                    <span class="google-icon">G</span>
+                    Continue with Google
+                </button>
+                <button class="facebook-btn" id="facebookLogin">
+                    <span class="facebook-icon">f</span>
+                    Continue with Facebook
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- NIT Logo Side Popup -->
+    <div id="nitSidebar" class="sidebar">
+        <div class="sidebar-content">
+            <span class="sidebar-close">&times;</span>
+            <h3>NIT Patna</h3>
+            <div class="sidebar-options">
+                <div class="sidebar-option">
+                    <span class="option-icon">🏛️</span>
+                    Official Website
+                </div>
+                <div class="sidebar-option">
+                    <span class="option-icon">📚</span>
+                    Academics
+                </div>
+                <div class="sidebar-option">
+                    <span class="option-icon">🎓</span>
+                    Admissions
+                </div>
+                <div class="sidebar-option">
+                    <span class="option-icon">🏢</span>
+                    Departments
+                </div>
+                <div class="sidebar-option">
+                    <span class="option-icon">🔬</span>
+                    Research
+                </div>
+                <div class="sidebar-option">
+                    <span class="option-icon">💼</span>
+                    Placements
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Join Us Modal -->
+    <div id="joinModal" class="modal">
+        <div class="modal-content">
+            <span class="close-join">&times;</span>
+            <h2>Join Robotics Club</h2>
+            <form id="joinForm">
+                <div class="form-group">
+                    <input type="text" id="fullName" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="joinEmail" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <select id="year" required>
+                        <option value="">Select Year</option>
+                        <option value="1st">1st Year</option>
+                        <option value="2nd">2nd Year</option>
+                        <option value="3rd">3rd Year</option>
+                        <option value="4th">4th Year</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select id="branch" required>
+                        <option value="">Select Branch</option>
+                        <option value="CSE">Computer Science</option>
+                        <option value="ECE">Electronics & Communication</option>
+                        <option value="EE">Electrical Engineering</option>
+                        <option value="ME">Mechanical Engineering</option>
+                        <option value="CE">Civil Engineering</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="experience" placeholder="Previous experience in robotics (optional)" rows="3"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="modal">
+        <div class="gallery-modal-content">
+            <span class="gallery-close">&times;</span>
+            <img id="galleryModalImage" src="" alt="">
+            <div class="gallery-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
