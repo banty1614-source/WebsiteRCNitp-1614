@@ -1,0 +1,38 @@
+<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .logo-text { font-family: Arial, sans-serif; font-weight: bold; fill: white; }
+      .wing-path { fill: none; stroke: white; stroke-width: 2; }
+      .circle-border { fill: none; stroke: white; stroke-width: 2; }
+    </style>
+  </defs>
+  
+  <!-- Wings -->
+  <path class="wing-path" d="M20 40 Q60 20 100 40"/>
+  <path class="wing-path" d="M20 45 Q60 25 100 45"/>
+  <path class="wing-path" d="M20 50 Q60 30 100 50"/>
+  
+  <path class="wing-path" d="M100 40 Q140 20 180 40"/>
+  <path class="wing-path" d="M100 45 Q140 25 180 45"/>
+  <path class="wing-path" d="M100 50 Q140 30 180 50"/>
+  
+  <!-- Center Circle -->
+  <circle cx="100" cy="40" r="25" class="circle-border"/>
+  
+  <!-- Robot Icon in center -->
+  <rect x="92" y="32" width="16" height="16" rx="2" fill="white"/>
+  <circle cx="96" cy="36" r="1.5" fill="black"/>
+  <circle cx="104" cy="36" r="1.5" fill="black"/>
+  <rect x="98" y="40" width="4" height="2" fill="black"/>
+  
+  <!-- Text around circle -->
+  <path id="top-curve" d="M 80 25 A 25 25 0 0 1 120 25" fill="none"/>
+  <text class="logo-text" font-size="8">
+    <textPath href="#top-curve" startOffset="50%" text-anchor="middle">ROBOTICS CLUB</textPath>
+  </text>
+  
+  <path id="bottom-curve" d="M 120 55 A 25 25 0 0 1 80 55" fill="none"/>
+  <text class="logo-text" font-size="8">
+    <textPath href="#bottom-curve" startOffset="50%" text-anchor="middle">NIT PATNA</textPath>
+  </text>
+</svg>
